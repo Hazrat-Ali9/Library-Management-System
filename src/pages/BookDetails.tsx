@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useGetBookQuery } from "../features/books/booksApi";
 import { FiEdit2, FiArrowLeft, FiBookOpen } from "react-icons/fi";
 import { motion } from "framer-motion";
-
+// book details
 const BookDetails = () => {
   const { id } = useParams();
   const { data: book, isLoading, isError } = useGetBookQuery(id!);
