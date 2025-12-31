@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiBookOpen } from "react-icons/fi";
-
+// Hero jsx
 const Hero = () => {
   return (
     <section className="relative bg-sky-50 text-sky-900 py-24 overflow-hidden mt-10">
