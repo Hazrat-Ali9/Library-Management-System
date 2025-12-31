@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useGetBooksQuery } from "../features/books/booksApi";
 import { FiBookOpen } from "react-icons/fi";
 import { FaSpinner } from "react-icons/fa";
-
+// Catagory books
 const CategoryBooks = () => {
   const { genre } = useParams(); 
   const {
