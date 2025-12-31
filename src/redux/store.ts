@@ -1,4 +1,4 @@
-// store.ts
+// Store.ts
 import { configureStore } from '@reduxjs/toolkit';
 import { booksApi } from '../features/books/booksApi';
 import { borrowApi } from '../features/borrow/borrowApi';
