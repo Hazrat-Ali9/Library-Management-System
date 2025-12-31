@@ -7,7 +7,7 @@ import Borrow from "../pages/Borrow";
 import BorrowSummary from "../pages/BorrowSummary";
 import BookDetails from "../pages/BookDetails";
 import DeleteBook from './../pages/DeleteBook';
-
+// index html
 import Home from './../home/Home';
 import CategoryBooks from './../pages/CategoryBooks';
 
