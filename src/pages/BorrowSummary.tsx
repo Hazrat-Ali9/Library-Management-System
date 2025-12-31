@@ -1,7 +1,7 @@
 import { useGetBorrowSummaryQuery } from "../features/borrow/borrowApi";
 import { motion } from "framer-motion";
 import { FiBook, FiAlertCircle, FiLoader } from "react-icons/fi";
-
+// borrow summary
 const BorrowSummary = () => {
   const { data: summary, isLoading, isError } = useGetBorrowSummaryQuery();
 
