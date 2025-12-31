@@ -3,7 +3,7 @@ import Navbar from './components/layout/Navbar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/layout/Footer';
-
+// apps tsx
 
 export default function App() {
   return (
