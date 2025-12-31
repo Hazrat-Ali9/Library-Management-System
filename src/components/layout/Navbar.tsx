@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiBook, FiPlusCircle, FiList, FiHome, FiMenu, FiX } from "react-icons/fi";
 import { useState } from "react";
 import { ModeToggle } from "../mode-toggle";
-
+// navbar 
 const Navbar = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
