@@ -1,8 +1,5 @@
-// features/books/booksApi.ts
-//baseUrl: 'https://library-management-ten-beta.vercel.app',
-
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-
+// books api
 export interface Book {
   _id: string;
   title: string;
