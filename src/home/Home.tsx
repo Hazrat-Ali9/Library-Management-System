@@ -12,7 +12,7 @@ import {
 import { useGetBooksQuery } from "../features/books/booksApi";
 import { FaSpinner } from "react-icons/fa";
 import Hero from "./../components/layout/Hero";
-
+// home jsx
 import { useGetCategoryCountsQuery } from "../features/books/booksApi";
 import Books from "@/pages/Books";
 
