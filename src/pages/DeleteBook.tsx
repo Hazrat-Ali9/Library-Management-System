@@ -3,7 +3,7 @@ import { useDeleteBookMutation, useGetBookQuery } from "../features/books/booksA
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 import { FiTrash2, FiX, FiAlertTriangle } from "react-icons/fi";
-
+// Detele books
 const DeleteBook = () => {
   const { id } = useParams();
   const navigate = useNavigate();
